@@ -5,20 +5,24 @@ instructor_notes: Feel free to re-organize the headings (or add/remove headings)
 
 # What are the different kinds of numbers in Ruby?
 
-Replace me with your response...
+Fixnum (Integer) and Floats (numbers with decimals)
 
 # What are some common operations and comparisons you would perform on numbers?
 
-Replace me with your response...
++ - * / % **
+ == <= >= < > != <=>
 
 # What is the difference between the `+` operation on a number versus on a String?
 
-Replace me with your response...
+when using the '+' sign on numbers it will add the value ie. 5 + 5 = 10
+when using the '+' sign with strings it will join strings togehter ie. 'hello' + 'jay' = 'hello jay'
 
 # If you have a _String_ `"20"` and want to perform a mathematical operation (like division or multiplication) on it, will it work? If yes, why? If not, how would you make it work?
 
-Replace me with your response...
+'20'.to_i + 2 = 22
 
 # What is the purpose of the `times` operation? Is that the same as `*`?
 
-Replace me with your response...
+The times method provides an alternative to the 'for' loop. The times method allows a specific number of times to pass through the block.
+for example
+5.times{|i| puts "jay"}
